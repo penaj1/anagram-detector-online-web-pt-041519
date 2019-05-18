@@ -6,7 +6,7 @@ def initialize
   
 end
 
-def match
+def match(array)
 
 
 
