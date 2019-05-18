@@ -2,10 +2,10 @@
 
 class Anagram
 
-  attr_accessor :fing_anagram_in_word
+  attr_accessor :word
 
   def initialize 
-    @fing_anagram_in_word = fing_anagram_in_word
+    @word = word
   end
 
   def match(find_anagram_string)
