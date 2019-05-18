@@ -8,7 +8,7 @@ class Anagram
     @word = word
   end
 
-  def match(array)
+  def match(find_anagram)
     array.split("")
   end
 
