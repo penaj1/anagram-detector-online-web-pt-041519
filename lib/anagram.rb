@@ -8,9 +8,8 @@ class Anagram
     @word = word
   end
 
-  def match(anagram_finder)
-    anagram_finder.select do |el|
-      (@word.split("")).sort) == (el.split("").sort)
+  def match(array)
+    array.select do |el|(@word.split("")).sort) == (el.split("").sort)
     end
   end
 end
