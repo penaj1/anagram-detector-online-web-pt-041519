@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(array)
-    array.split("") == 
+    array.split("")
   end
 
 end
