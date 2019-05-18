@@ -2,15 +2,12 @@
 
 class Anagram
 
-def initialize 
+  def initialize 
   
-end
+  end
 
-def match(array)
+  def match(array)
 
-
-
-end
-
+  end
 
 end
