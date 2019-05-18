@@ -5,7 +5,7 @@ class Anagram
   attr_accessor :fing_anagram_in_word
 
   def initialize 
-    @word = word
+    @fing_anagram_in_word = fing_anagram_in_word
   end
 
   def match(find_anagram)
