@@ -10,6 +10,6 @@ class Anagram
 
   def match(anagram_finder)
     anagram_finder.select do |el|
-      (@word.split("")).sort) == 
+      (@word.split("")).sort) == (el.split)
 
 end
