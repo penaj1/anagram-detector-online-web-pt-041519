@@ -2,7 +2,7 @@
 
 class Anagram
 
-  attr_accessor :word
+  attr_accessor :fing_anagram_in_word
 
   def initialize 
     @word = word
