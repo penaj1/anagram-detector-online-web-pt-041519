@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(anagram_finder)
-    anagram_finder.select
+    anagram_finder.select do |el|
+      
 
 end
